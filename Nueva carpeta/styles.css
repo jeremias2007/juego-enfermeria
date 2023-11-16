@@ -1,0 +1,41 @@
+#roulette {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#spinner {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient(
+        from 0deg,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+        violet,
+        red
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#question-container {
+    text-align: center;
+}
+
+#question, #answer {
+    font-size: 18px;
+}
+
+#answer {
+    color: green; /* Puedes cambiar el color de la respuesta según tus preferencias */
+}
+
+#timer {
+    font-size: 16px;
+    margin-top: 10px;
+}
